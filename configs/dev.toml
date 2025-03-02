@@ -1,0 +1,5 @@
+[logs]
+level = "debug"
+
+[http]
+port = 8080

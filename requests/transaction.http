@@ -1,0 +1,31 @@
+
+### Deposit operation
+POST http://localhost:8080/ledger/304629d2-ba1f-43df-a839-26ceb869645a/transaction
+Content-Type: application/json
+
+{
+  "type": "credit",
+  "description": "test transaction",
+  "amount": 66.33
+}
+
+### Withdraw operation
+POST http://localhost:8080/ledger/304629d2-ba1f-43df-a839-26ceb869645a/transaction
+Content-Type: application/json
+
+{
+  "type": "debit",
+  "description": "test transaction",
+  "amount": 20.01
+}
+
+
+### Deposit operation with incorrect payload
+POST http://localhost:8080/ledger/304629d2-ba1f-43df-a839-26ceb86964a/transaction
+Content-Type: application/json
+
+{
+  "type": "credit",
+  "description": "test transaction",
+  "amount": 20
+}

@@ -1,0 +1,9 @@
+
+### Get balance
+GET http://localhost:8080/ledger/304629d2-ba1f-43df-a839-26ceb869645a/balance
+Content-Type: application/json
+
+
+### Get balance with incorrect id
+GET http://localhost:8080/ledger/123/balance
+Content-Type: application/json

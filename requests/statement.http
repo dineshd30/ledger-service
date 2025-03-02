@@ -1,0 +1,9 @@
+
+### Get statement
+GET http://localhost:8080/ledger/304629d2-ba1f-43df-a839-26ceb869645a/statement
+Content-Type: application/json
+
+
+### Get statement with incorrect id
+GET http://localhost:8080/ledger/123/statement
+Content-Type: application/json
