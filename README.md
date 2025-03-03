@@ -22,6 +22,14 @@ To build ledger service on local machine execute below command
   go build -o ./bin/api ./cmd/api
 ```
 
+### Running Ledger Service locally
+
+To run ledger service on local machine execute api binary as below
+
+```
+  ./bin/api
+```
+
 ### Using Ledger Service
 
 To deposit cash into ledger use below http endpoint
